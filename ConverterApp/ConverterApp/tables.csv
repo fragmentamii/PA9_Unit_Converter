@@ -1,24 +1,24 @@
-length,kilometer,0.001
+length,kilometer,1000
 length,meter,1
-length,decimeter,10
-length,centimeter,100
-length,millimeter,1000
+length,decimeter,0.1
+length,centimeter,0.01
+length,millimeter,0.001
 length,mile,1609.344
 length,yard,0.9144
 length,foot,0.3048
 length,inch,0.0254
-mass,kilogram,0.001
+mass,kilogram,1000
 mass,gram,1
-mass,decigram,10
-mass,centigram,100
-mass,milligram,1000
+mass,decigram,0.1
+mass,centigram,0.01
+mass,milligram,0.001
 mass,pound,0.00220462
 mass,ounce,0.03527396
-volume,kiloliter,0.001
+volume,kiloliter,1000
 volume,liter,1
-volume,deciliter,10
-volume,centiliter,100
-volume,milliliter,1000
+volume,deciliter,0.1
+volume,centiliter,0.01
+volume,milliliter,0.001
 volume,gallon,3.78541178
 volume,quart,0.94635295
 volume,pint,0.47317647
@@ -26,3 +26,10 @@ volume,cup,0.23658824
 volume,ounce,0.02957353
 volume,tablespoon,0.01478676
 volume,teaspoon,0.00492892
+poker chip,white,1
+poker chip,red,5
+poker chip,blue,10
+poker chip,green,25
+poker chip,black,100
+poker chip,purple,500
+poker chip,yellow,1000

@@ -1,13 +1,13 @@
 #include <QApplication>
 #include <QDebug>
-#include "mainwindow.h"
+#include "converterwindow.h"
 
 // Responsible for launching the application
 
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 
-    MainWindow mainWindow;
+    ConverterWindow mainWindow;
     mainWindow.setWindowTitle("Conversion App");
     mainWindow.resize(400, 300);  // Set initial size of the window
     mainWindow.show();
