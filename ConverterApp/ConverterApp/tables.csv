@@ -1,35 +1,62 @@
-length,kilometer,1000
-length,meter,1
-length,decimeter,0.1
-length,centimeter,0.01
-length,millimeter,0.001
-length,mile,1609.344
-length,yard,0.9144
-length,foot,0.3048
-length,inch,0.0254
-mass,kilogram,1000
-mass,gram,1
-mass,decigram,0.1
-mass,centigram,0.01
-mass,milligram,0.001
-mass,pound,0.00220462
-mass,ounce,0.03527396
-volume,kiloliter,1000
-volume,liter,1
-volume,deciliter,0.1
-volume,centiliter,0.01
-volume,milliliter,0.001
-volume,gallon,3.78541178
-volume,quart,0.94635295
-volume,pint,0.47317647
-volume,cup,0.23658824
-volume,ounce,0.02957353
-volume,tablespoon,0.01478676
-volume,teaspoon,0.00492892
-poker chip,white,1
-poker chip,red,5
-poker chip,blue,10
-poker chip,green,25
-poker chip,black,100
-poker chip,purple,500
-poker chip,yellow,1000
+Length,Kilometer,1000
+Length,Meter,1
+Length,Decimeter,0.1
+Length,Centimeter,0.01
+Length,Millimeter,0.001
+Length,Mile,1609.344
+Length,Yard,0.9144
+Length,Foot,0.3048
+Length,Inch,0.0254
+Mass,Kilogram,1000
+Mass,Gram,1
+Mass,Decigram,0.1
+Mass,Centigram,0.01
+Mass,Milligram,0.001
+Mass,Pound,0.00220462
+Mass,Ounce,0.03527396
+Volume,Kiloliter,1000
+Volume,Liter,1
+Volume,Deciliter,0.1
+Volume,Centiliter,0.01
+Volume,Milliliter,0.001
+Volume,Gallon,3.78541178
+Volume,Quart,0.94635295
+Volume,Pint,0.47317647
+Volume,Cup,0.23658824
+Volume,Ounce,0.02957353
+Volume,Tablespoon,0.01478676
+Volume,Teaspoon,0.00492892
+Poker Chip,White,1
+Poker Chip,Red,5
+Poker Chip,Blue,10
+Poker Chip,Green,25
+Poker Chip,Black,100
+Poker Chip,Purple,500
+Poker Chip,Yellow,1000
+Area,Sq. kilometer,1000000
+Area,Sq. meter,1
+Area,Sq. decimeter,0.1
+Area,Sq. centimeter,0.01
+Area,Sq. millimeter,0.001
+Area,Sq. mile,2590000
+Area,Sq. yard,0.83612736
+Area,Sq. foot,0.09290304
+Area,Sq. inch,0.00064516
+Area,Hectare,10000
+Area,Acre,4046.85642
+Time,Hour,3600
+Time,Minute,60
+Time,Second,1
+Time,Millisecond,0.001
+Time,Microsecond,0.000001
+Time,Nanosecond,0.000000001
+Angle,Radian,1
+Angle,Degree,0.01570796
+Angle,Milliradian,0.001
+Angle,Microradian,0.000001
+Angle,Gradian,0.01570796
+Angle,Revolution,6.28318531
+Angle,Arc minute,0.00029089
+Angle,Arc second,0.00000485
+Angle,Milliarcsecond,0.0000000048481
+Angle,Microarcsecond,0.0000000000048481

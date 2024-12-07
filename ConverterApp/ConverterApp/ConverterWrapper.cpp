@@ -1,4 +1,5 @@
 #include "ConverterWrapper.hpp"
+#include "TemperatureConverter.hpp"
 
 ConverterWrapper::ConverterWrapper()
 {
@@ -35,6 +36,8 @@ ConverterWrapper::ConverterWrapper()
     }
 
     // TODO: add special converters below
+    converters["Temperature"] = new TemperatureConverter();
+    categories.append("Temperature");
 }
 
 ConverterWrapper::~ConverterWrapper()

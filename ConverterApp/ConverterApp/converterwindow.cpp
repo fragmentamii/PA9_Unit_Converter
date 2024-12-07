@@ -2,7 +2,6 @@
 
 ConverterWindow::ConverterWindow(QWidget* parent) : QMainWindow(parent)
 {
-	//this->setStyleSheet("background-color: white");
 	setWindowIcon(QIcon("converter_icon.png"));
 
 	QWidget* centralWidget = new QWidget(this);
@@ -27,7 +26,7 @@ void ConverterWindow::initialize()
 	rightDropdown = new QComboBox(this);
 	rightDropdown->setPlaceholderText("Select Unit");
 
-	inputValidator = new QDoubleValidator(0.0, 1000.0, 5);
+	inputValidator = new QDoubleValidator(-1000.0, 1000.0, 5);
 
 	leftInput = new QLineEdit(this);
 	rightInput = new QLineEdit(this);
@@ -46,7 +45,7 @@ void ConverterWindow::initialize()
 	QObject::connect(leftInput, &QLineEdit::textEdited, this, &ConverterWindow::computeRight);
 	QObject::connect(rightInput, &QLineEdit::textEdited, this, &ConverterWindow::computeLeft);
 	QObject::connect(leftDropdown, &QComboBox::currentTextChanged, this, &ConverterWindow::computeRight);
-	QObject::connect(rightDropdown, &QComboBox::currentTextChanged, this, &ConverterWindow::computeLeft);
+	QObject::connect(rightDropdown, &QComboBox::currentTextChanged, this, &ConverterWindow::computeRight);
 }
 
 void ConverterWindow::loadAppearance()

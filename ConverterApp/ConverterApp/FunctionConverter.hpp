@@ -10,6 +10,7 @@
 
 #include <QHash>
 #include <QString>
+#include <cmath>
 #include <functional>
 #include <stdexcept>
 #include "Converter.hpp"
@@ -22,6 +23,9 @@ protected:
 	QHash<QString, convertFunction> fromFunctions;
 	QHash<QString, convertFunction> toFunctions;
 public:
+
+	// set the options, fromFunctions, and toFunctions in subclass constructor
+
+	double convert(double value, const QString& from, const QString& to) override;
 	
-	double convert(double, const QString& from, const QString& to) override;
 };
